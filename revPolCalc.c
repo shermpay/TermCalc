@@ -3,6 +3,7 @@
    Reverse Polish Calculator
    Handles + - * / % */
 
+/* Cool beeans */
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
