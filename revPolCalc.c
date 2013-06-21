@@ -34,6 +34,7 @@ int main(void)
 	double op;
 	char s[MAX];
 
+	/* Prints the intro message */
 	printf("Reverse polish calculator:\n");
 	printf("Allows + - * / and %% \n");
 	printf("\'h\' to print a list of commmands and \'q\' to quit\n\n");
