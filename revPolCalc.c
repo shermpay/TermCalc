@@ -18,6 +18,7 @@ double pop(void);
 double peek(void);
 void clear(void);
 double swap(void);
+void stoVar(char c, double n);
 
 int getch(void);
 void ungetch(int c);
@@ -27,7 +28,7 @@ int size = 0;
 double stack[MAX];
 char buf[BUF_SIZE];
 int bufp = 0;
-
+double vars[26];
 
 int main(void)
 {
@@ -80,6 +81,9 @@ int main(void)
 			pop();
 			printf("\tundid last move\n");
 			break;
+		case 'v':
+
+
 		case '\n':
 			if (size > 0) 
 				printf("\tlast element\n");
@@ -98,6 +102,7 @@ int main(void)
 		}
 	}
 	printf("Calculator end");
+
 	return 0;
 }
 
@@ -199,4 +204,11 @@ int getop(char s[])
 	if (c != EOF)
 		ungetch(c);
 	return NUMBER;
+}
+
+void stoVar(char c, double n)
+{
+	if (c >= 65 && c <= 90) {
+		
+	}
 }
