@@ -1,3 +1,6 @@
+/* Sherman Pay Jing Hao
+   Thursday, 30. January 2014*/
+
 void push(double v);
 void print(void);
 double pop(void);

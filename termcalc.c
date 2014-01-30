@@ -9,9 +9,6 @@
 #include "stack.h"
 #include "getch.h"
 
-#define MAX 100
-#define NUMBER '0'
-
 int main(void)
 {
     int type;
