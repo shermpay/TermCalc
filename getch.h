@@ -5,7 +5,6 @@
 #define BUF_SIZE 100
 #define NUMBER '0'
 #define MAX 100
-#define NUMBER '0'
 
 int getch(void);
 void ungetch(int c);
